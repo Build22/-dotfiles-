@@ -39,3 +39,9 @@ do
 done
 
 unset config_files
+
+eval "$(rbenv init -)" 
+
+. `brew --prefix`/etc/profile.d/z.sh
+
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

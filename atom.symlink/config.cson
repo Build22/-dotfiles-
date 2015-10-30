@@ -3,7 +3,6 @@
     showIndentGuide: true
     fontFamily: "Menlo"
     invisibles: {}
-    fontSize: 15
     softWrapAtPreferredLineLength: true
   core:
     ignoredNames: [
@@ -15,8 +14,8 @@
       "vendor"
     ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "northem-dark-atom-ui"
+      "batman-syntax"
     ]
     hideGitIgnoredFiles: true
     disabledPackages: [
@@ -34,4 +33,16 @@
     showOnStartup: false
   "release-notes":
     viewedVersion: "0.89.0"
-  "autocomplete-elixir": {}
+  "autocomplete-elixir":
+    erlangHome: "/usr/local/bin"
+  linter: {}
+  "one-dark-ui":
+    fontSize: 11
+  "autocomplete-erlang": {}
+  "accents-ui": {}
+  "atom-material-ui":
+    compactTreeView: true
+    depth: true
+    disableAnimations: true
+    accentColor: "Red"
+  "linter-erlang": {}

@@ -29,7 +29,10 @@ class Object
     end
     puts `ri '#{method}'`
   end
-end
+end 
+
+require "awesome_print"
+AwesomePrint.irb!
 
 def me
   User.find_by_login(ENV['USER'].strip)
