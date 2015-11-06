@@ -15,7 +15,7 @@
       "vendor"
     ]
     themes: [
-      "northem-dark-atom-ui"
+      "atom-dark-ui"
       "batman-syntax"
     ]
     hideGitIgnoredFiles: true
