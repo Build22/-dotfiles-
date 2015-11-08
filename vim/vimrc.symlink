@@ -8,9 +8,14 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim' 
+Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'elixir-lang/vim-elixir'
+
+Plugin 'kien/ctrlp.vim'
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.

@@ -4,7 +4,7 @@
     fontFamily: "Menlo"
     invisibles: {}
     softWrapAtPreferredLineLength: true
-    fontSize: 13
+    fontSize: 15
   core:
     ignoredNames: [
       ".bundle"
@@ -15,7 +15,7 @@
       "vendor"
     ]
     themes: [
-      "atom-dark-ui"
+      "one-dark-ui"
       "batman-syntax"
     ]
     hideGitIgnoredFiles: true
