@@ -1,10 +1,37 @@
 "*":
-  editor:
-    showIndentGuide: true
-    fontFamily: "Menlo"
-    invisibles: {}
-    softWrapAtPreferredLineLength: true
+  "accents-ui": {}
+  "apathy-theme":
+    altFont: "Inconsolata"
+    altStyle: "Color Pop"
+    customInactiveOverlayColor:
+      alpha: 1
+      blue: 33
+      green: 33
+      red: 33
+  "atom-beautify":
+    _analyticsUserId: "6303a769-dcf4-4856-b9f6-aa131ba2bab7"
+  "atom-material-ui":
+    accentColor: "Red"
+    compactTreeView: true
+    depth: true
+    disableAnimations: true
+    panels: {}
+    tabs: {}
+    treeView:
+      compactTreeView: true
+    ui:
+      disableAnimations: true
+  "autocomplete-elixir":
+    erlangHome: "/usr/local/bin"
+  "autocomplete-erlang": {}
   core:
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+      "autocomplete-julia"
+    ]
+    hideGitIgnoredFiles: true
     ignoredNames: [
       ".bundle"
       ".git"
@@ -13,37 +40,37 @@
       "tmp"
       "vendor"
     ]
-    hideGitIgnoredFiles: true
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-      "autocomplete-julia"
-    ]
     themes: [
-      "one-dark-ui"
-      "solarized-dark-syntax"
+      "hacking-the-kernel-ui"
+      "hacking-the-kernel"
     ]
+  editor:
+    fontFamily: "Inconsolata"
+    fontSize: 16
+    invisibles: {}
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 2
+  fonts:
+    fontFamily: "Inconsolata"
+  "highlight-selected": {}
+  linter: {}
+  "linter-erlang": {}
+  minimap:
+    absoluteMode: true
+  "one-dark-ui":
+    fontSize: 12
+  "release-notes":
+    viewedVersion: "0.89.0"
   "spell-check":
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
     ]
+  "steam-pirate-ui":
+    fontSize: 12
+    layoutMode: "Compact"
   welcome:
     showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "autocomplete-elixir":
-    erlangHome: "/usr/local/bin"
-  linter: {}
-  "one-dark-ui":
-    fontSize: 11
-  "autocomplete-erlang": {}
-  "accents-ui": {}
-  "atom-material-ui":
-    compactTreeView: true
-    depth: true
-    disableAnimations: true
-    accentColor: "Red"
-  "linter-erlang": {}
