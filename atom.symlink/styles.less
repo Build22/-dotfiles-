@@ -1,4 +1,27 @@
-@font-size: 11px;
-html, body, .tree-view, .tab-bar .tab {
-  font-size: @font-size;
+atom-workspace {
+   font-family: "Consolas";
+   font-size: 15px;
+   font-weight: 425;
+   line-height: 1.7;
+}
+
+atom-text-editor {
+   font-family: "Operator Mono";
+   font-size: 16px;
+   font-weight: 430;
+   line-height: 1.7;
+}
+
+atom-panel.tool-panel {
+   font-size: 0.88em;
+}
+
+.entity.other.attribute-name {
+    font-style: italic;
+}
+
+atom-text-editor::shadow{
+    .entity.other.attribute-name {
+        font-style: italic;
+    }
 }
