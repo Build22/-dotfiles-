@@ -12,8 +12,15 @@
     _analyticsUserId: "6303a769-dcf4-4856-b9f6-aa131ba2bab7"
   "atom-material-ui":
     colors:
+      abaseColor:
+        red: 96
+        green: 125
+        blue: 139
+        alpha: 1
       genAccent: true
-    fonts: {}
+      predefinedColor: "Blue Grey"
+    fonts:
+      fontSize: 14
     tabs: {}
     treeView:
       compactList: true
@@ -38,7 +45,7 @@
     ]
     themes: [
       "atom-material-ui"
-      "atom-material-syntax"
+      "atom-material-syntax-dark"
     ]
   editor:
     fontFamily: "Inconsolata"
@@ -59,6 +66,7 @@
   minimap: {}
   "one-dark-ui":
     fontSize: 10
+  pigments: {}
   "relative-numbers":
     showAbsoluteNumbers: true
   "release-notes":
