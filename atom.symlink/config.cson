@@ -4,10 +4,10 @@
     altFont: "Inconsolata"
     altStyle: "Color Pop"
     customInactiveOverlayColor:
-      red: 33
-      green: 33
-      blue: 33
       alpha: 1
+      blue: 33
+      green: 33
+      red: 33
   "atom-beautify":
     _analyticsUserId: "6303a769-dcf4-4856-b9f6-aa131ba2bab7"
   "atom-material-ui":
@@ -24,9 +24,7 @@
     tabs: {}
     treeView:
       compactList: true
-    ui:
-      panelContrast: true
-      panelShadows: true
+    ui: {}
   "autocomplete-elixir":
     erlangHome: "/usr/local/bin"
   "autocomplete-erlang": {}
@@ -47,7 +45,7 @@
     ]
     themes: [
       "atom-material-ui"
-      "duotone-blue-dark-syntax"
+      "duotone-dark-sea-syntax"
     ]
   editor:
     fontFamily: "Inconsolata"
@@ -61,11 +59,11 @@
   fonts:
     fontFamily: "Inconsolata"
   "highlight-selected":
-    highlightBackground: true
     ignoreCase: true
   linter: {}
   "linter-erlang": {}
-  minimap: {}
+  minimap:
+    absoluteMode: true
   "one-dark-ui":
     fontSize: 10
   pigments: {}
