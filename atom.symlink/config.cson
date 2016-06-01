@@ -4,10 +4,10 @@
     altFont: "Inconsolata"
     altStyle: "Color Pop"
     customInactiveOverlayColor:
-      red: 33
-      green: 33
-      blue: 33
       alpha: 1
+      blue: 33
+      green: 33
+      red: 33
   "atom-beautify":
     _analyticsUserId: "6303a769-dcf4-4856-b9f6-aa131ba2bab7"
   "atom-material-ui":
@@ -20,7 +20,7 @@
       genAccent: true
       predefinedColor: "Blue Grey"
     fonts:
-      fontSize: 15
+      fontSize: 14
     tabs: {}
     treeView:
       compactList: true
@@ -34,6 +34,7 @@
       "background-tips"
       "exception-reporting"
       "metrics"
+      "fonts"
     ]
     hideGitIgnoredFiles: true
     ignoredNames: [
@@ -46,7 +47,7 @@
     ]
     themes: [
       "atom-material-ui"
-      "robin-hood-syntax"
+      "atom-material-syntax"
     ]
   editor:
     fontFamily: "Inconsolata"
@@ -59,19 +60,15 @@
   "file-icons": {}
   fonts:
     fontFamily: "Inconsolata"
-  "highlight-column":
-    enabled: false
-    lineMode: true
+  "highlight-column": {}
   "highlight-line":
-    enableUnderline: true
     hideHighlightOnSelect: true
     underline: "dashed"
   "highlight-selected":
     ignoreCase: true
   linter: {}
   "linter-erlang": {}
-  minimap:
-    displayCodeHighlights: false
+  minimap: {}
   "one-dark-ui":
     fontSize: 10
   "pdf-view": {}
