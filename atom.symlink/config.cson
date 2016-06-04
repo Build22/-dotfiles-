@@ -24,8 +24,7 @@
     tabs: {}
     treeView:
       compactList: true
-    ui:
-      panelShadows: true
+    ui: {}
   "autocomplete-elixir":
     erlangHome: "/usr/local/bin"
   "autocomplete-erlang": {}
@@ -47,7 +46,7 @@
     ]
     themes: [
       "atom-material-ui"
-      "atom-material-syntax"
+      "gruvbox-plus-syntax"
     ]
   editor:
     fontFamily: "Inconsolata"
