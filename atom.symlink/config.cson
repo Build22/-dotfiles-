@@ -1,5 +1,7 @@
 "*":
   "accents-ui": {}
+  "activate-power-mode":
+    autoToggle: false
   "apathy-theme":
     altFont: "Inconsolata"
     altStyle: "Color Pop"
@@ -21,10 +23,12 @@
       predefinedColor: "Blue Grey"
     fonts:
       fontSize: 14
-    tabs: {}
+    tabs:
+      compactTabs: true
     treeView:
       compactList: true
-    ui: {}
+    ui:
+      animations: false
   "autocomplete-elixir":
     erlangHome: "/usr/local/bin"
   "autocomplete-erlang": {}
@@ -34,6 +38,8 @@
       "exception-reporting"
       "metrics"
       "fonts"
+      "es6-javascript"
+      "Quick-JavaScript"
     ]
     hideGitIgnoredFiles: true
     ignoredNames: [
@@ -46,11 +52,10 @@
     ]
     themes: [
       "atom-material-ui"
-      "gruvbox-plus-syntax"
+      "duotone-dark-sea-syntax"
     ]
   editor:
     fontFamily: "Inconsolata"
-    fontSize: 32
     invisibles: {}
     showIndentGuide: true
     softWrap: true
@@ -59,7 +64,8 @@
   "file-icons": {}
   fonts:
     fontFamily: "Inconsolata"
-  "highlight-column": {}
+  "highlight-column":
+    lineMode: true
   "highlight-line":
     hideHighlightOnSelect: true
     underline: "dashed"
@@ -88,5 +94,7 @@
   "tool-bar":
     iconSize: "16px"
     position: "Left"
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
