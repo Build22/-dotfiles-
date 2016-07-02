@@ -58,7 +58,7 @@
     ]
     themes: [
       "atom-material-ui"
-      "titan-dark-syntax"
+      "gruvbox-plus-syntax"
     ]
   editor:
     fontFamily: "Inconsolata"
@@ -70,6 +70,8 @@
   "file-icons": {}
   fonts:
     fontFamily: "Inconsolata"
+  "gruvbox-plus-syntax":
+    contrast: "Hard"
   "highlight-column": {}
   "highlight-line":
     hideHighlightOnSelect: true
