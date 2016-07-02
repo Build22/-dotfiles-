@@ -8,10 +8,10 @@
     altFont: "Inconsolata"
     altStyle: "Color Pop"
     customInactiveOverlayColor:
-      red: 33
-      green: 33
-      blue: 33
       alpha: 1
+      blue: 33
+      green: 33
+      red: 33
   "atom-beautify":
     _analyticsUserId: "6303a769-dcf4-4856-b9f6-aa131ba2bab7"
     general:
