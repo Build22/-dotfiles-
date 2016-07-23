@@ -75,10 +75,11 @@
   "highlight-column": {}
   "highlight-line":
     hideHighlightOnSelect: true
-    underline: "dashed"
-  "highlight-selected":
-    ignoreCase: true
+  "highlight-selected": {}
   linter: {}
+  "linter-elixirc":
+    elixircPath: "/usr/local/bin/elixirc"
+    mixPath: "/usr/local/bin/mix"
   "linter-erlang": {}
   minimap: {}
   "one-dark-ui":
@@ -105,3 +106,9 @@
     position: "Left"
   welcome:
     showOnStartup: false
+".elm.elmx.source":
+  editor:
+    softWrapHangingIndent: 2
+".elm.source":
+  editor:
+    softWrapHangingIndent: 2
