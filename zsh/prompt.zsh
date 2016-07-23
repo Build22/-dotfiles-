@@ -58,6 +58,10 @@ ruby_version() {
   fi
 }
 
+elixir_version() {
+  echo "$(elixir --version | awk '{print $2}')"
+}
+
 rb_prompt() {
   if ! [[ -z "$(ruby_version)" ]]
   then
@@ -68,10 +72,19 @@ rb_prompt() {
 }
 
 directory_name() {
-  echo "%{$fg_bold[cyan]%}%1/%\/%{$reset_color%}"
+  echo "%{$fg_bold[magenta]%}%1/%\/%{$reset_color%}"
 }
 
-export PROMPT=$'\nin $(directory_name) $(git_dirty)$(need_push)\n› '
+my_alias() {
+  echo "%{$fg_bold[green]%}sMatrix%{$reset_color%}"
+}
+
+select_prompt_symbol() {
+  echo "%{$fg_bold[green]%}λ%{$reset_color%}"
+}
+
+export PROMPT=$'\n$(my_alias) in $(directory_name) $(git_dirty)$(need_push)\n$(select_prompt_symbol) '
+
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
