@@ -1,4 +1,5 @@
-set nocompatible              " be iMproved, required
+set nocompatible              " be iMproved, required 
+set number
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
@@ -10,7 +11,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'elixir-lang/vim-elixir'
+Plugin 'elixir-lang/vim-elixir' 
+Plugin 'lambdatoast/elm.vim'
 
 Plugin 'kien/ctrlp.vim'
 

@@ -8,24 +8,31 @@
     altFont: "Inconsolata"
     altStyle: "Color Pop"
     customInactiveOverlayColor:
-      red: 33
-      green: 33
-      blue: 33
       alpha: 1
+      blue: 33
+      green: 33
+      red: 33
   "atom-beautify":
     _analyticsUserId: "6303a769-dcf4-4856-b9f6-aa131ba2bab7"
     general:
       _analyticsUserId: "ffb6e59a-5fcd-4383-911b-983d2b6acadc"
   "atom-material-ui":
     colors:
+      abaseColor:
+        red: 96
+        green: 125
+        blue: 139
+        alpha: 1
       genAccent: true
+      predefinedColor: "Blue Grey"
     fonts:
-      fontSize: 15
+      fontSize: 17
     tabs: {}
     treeView:
       compactList: true
     ui:
       animations: false
+      panelContrast: true
   "autocomplete-elixir":
     erlangHome: "/usr/local/bin"
   "autocomplete-erlang": {}
@@ -38,6 +45,7 @@
       "fancy-bracket-matcher"
       "rubocop-auto-correct"
       "language-elmx"
+      "autocomplete-elixir"
     ]
     hideGitIgnoredFiles: true
     ignoredNames: [
@@ -53,7 +61,7 @@
     ]
     themes: [
       "atom-material-ui"
-      "gruvbox-plus-syntax"
+      "seti-syntax"
     ]
   editor:
     fontFamily: "Inconsolata"
@@ -68,9 +76,10 @@
   fonts:
     fontFamily: "Inconsolata"
   "gruvbox-plus-syntax":
-    contrast: "Hard"
-    variant: "No Dimmed Colors"
-  "highlight-column": {}
+    contrast: "Soft"
+  "highlight-column":
+    enabled: false
+    lineMode: true
   "highlight-line":
     hideHighlightOnSelect: true
   "highlight-selected": {}
@@ -82,7 +91,8 @@
     mixPath: "/usr/local/bin/mix"
   "linter-elm-make": {}
   "linter-erlang": {}
-  minimap: {}
+  minimap:
+    absoluteMode: true
   "one-dark-ui":
     fontSize: 10
   "pdf-view": {}
@@ -93,6 +103,8 @@
     viewedVersion: "0.89.0"
   "rubocop-auto-correct":
     autoRun: true
+  "seti-syntax":
+    themeColor: "Steel"
   "spell-check":
     grammars: [
       "text.plain"
