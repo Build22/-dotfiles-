@@ -14,17 +14,14 @@
       _analyticsUserId: "ffb6e59a-5fcd-4383-911b-983d2b6acadc"
   "atom-material-ui":
     colors:
-      abaseColor: "#7e7e7e"
+      abaseColor: "#607d8b"
       genAccent: true
-      predefinedColor: "Grey"
-    fonts:
-      fontSize: 16.5
+      predefinedColor: "Blue Grey"
+    fonts: {}
     tabs: {}
     treeView:
       compactList: true
-    ui:
-      animations: false
-      panelContrast: true
+    ui: {}
   "autocomplete-elixir":
     erlangHome: "/usr/local/bin"
   "autocomplete-erlang": {}
@@ -61,7 +58,6 @@
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
-    softWrap: true
     softWrapAtPreferredLineLength: true
     softWrapHangingIndent: 2
   "elm-format":
