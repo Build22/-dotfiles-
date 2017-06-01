@@ -80,10 +80,10 @@ my_alias() {
 }
 
 select_prompt_symbol() {
-  echo "%{$fg_bold[green]%}λ%{$reset_color%}"
+  echo "%{$fg_bold[green]%}-> %{$reset_color%}"
 }
 
-export PROMPT=$'\n$(directory_name) $(git_dirty)$(need_push)\n$(select_prompt_symbol) '
+export PROMPT=$'\n$(directory_name) $(git_dirty)$(need_push)\n$(select_prompt_symbol)'
 
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
@@ -92,4 +92,16 @@ set_prompt () {
 precmd() {
   title "zsh" "%m" "%55<...<%~"
   set_prompt
+}
+
+function preexec() {
+  timer=${timer:-$SECONDS}
+}
+
+function precmd() {
+  if [ $timer ]; then
+    timer_show=$(($SECONDS - $timer))
+    export RPROMPT="%F{cyan}${timer_show}s %{$reset_color%}"
+    unset timer
+  fi
 }

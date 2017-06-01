@@ -2,6 +2,9 @@
   "accents-ui": {}
   "activate-power-mode":
     autoToggle: false
+    comboMode: {}
+    screenShake:
+      enabled: false
   "advanced-open-file":
     fuzzyMatch: true
   "apathy-theme":
@@ -12,30 +15,40 @@
     _analyticsUserId: "6303a769-dcf4-4856-b9f6-aa131ba2bab7"
     general:
       _analyticsUserId: "ffb6e59a-5fcd-4383-911b-983d2b6acadc"
+  "atom-clock":
+    dateFormat: "LT"
   "atom-material-ui":
     colors:
-      abaseColor: "#607d8b"
+      abaseColor: "#ffa726"
+      accentColor: "#9f6918"
       genAccent: true
-      predefinedColor: "Blue Grey"
-    fonts: {}
-    tabs: {}
+      predefinedColor: "Orange"
+    fonts:
+      fontSize: 18
+    tabs:
+      compactTabs: true
     treeView:
+      blendTabs: true
       compactList: true
-    ui: {}
+    ui:
+      panelContrast: true
+      panelShadows: true
   "autocomplete-elixir":
     erlangHome: "/usr/local/bin"
   "autocomplete-erlang": {}
   core:
+    audioBeep: false
     disabledPackages: [
       "background-tips"
       "exception-reporting"
       "metrics"
-      "fonts"
       "rubocop-auto-correct"
       "language-elmx"
-      "autocomplete-elixir"
-      "atom-bracket-highlight"
+      "highlight-column"
       "fancy-bracket-matcher"
+      "atom-bracket-highlight"
+      "swackets"
+      "fonts"
     ]
     hideGitIgnoredFiles: true
     ignoredNames: [
@@ -51,27 +64,40 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "atom-material-ui"
-      "atom-panda-syntax"
+      "nord-atom-ui"
+      "nord-atom-syntax"
     ]
   editor:
+    fontFamily: "Consolas"
+    fontSize: 18
     invisibles: {}
     showIndentGuide: true
-    showInvisibles: true
+    softWrap: true
     softWrapAtPreferredLineLength: true
     softWrapHangingIndent: 2
   "elm-format":
     binary: "/Users/jade/.dotfiles/bin/elm-format"
+  elmjutsu:
+    autocompleteEnabled: true
+    autocompleteSnippetsEnabled: true
+    cacheDirectory: "/var/folders/sl/w8s5z_d11fgb9vvryg_w8f900000gr/T/elmjutsu25202CLgR47R69DBk"
+    globalAutocompleteEnabled: true
+    hyperclickEnabled: true
+    showSidekick: true
   "file-icons": {}
   fonts:
-    fontFamily: "Inconsolata"
+    fontFamily: "Hack"
   "gruvbox-plus-syntax":
-    contrast: "Soft"
+    contrast: "Hard"
+    variant: "No Dimmed Colors"
   "highlight-column": {}
   "highlight-line":
     hideHighlightOnSelect: true
   "highlight-selected": {}
+  iex:
+    colors: {}
   "language-elm":
+    autocompleteEnabled: false
     elmOraclePath: "/usr/local/bin/elm-oracle"
   linter: {}
   "linter-elixirc":
@@ -80,10 +106,18 @@
   "linter-elm-make": {}
   "linter-erlang": {}
   "linter-js-standard": {}
+  "linter-ui-default": {}
+  "markdown-preview":
+    breakOnSingleNewline: true
   minimap:
     absoluteMode: true
+  "nord-atom-syntax":
+    accessibility: {}
+  "nord-atom-ui":
+    darkerFormFocusEffect: true
   "one-dark-ui":
-    fontSize: 10
+    fontSize: 15
+    layoutMode: "Compact"
   "pdf-view": {}
   pigments: {}
   "relative-numbers":
@@ -94,6 +128,9 @@
     autoRun: true
   "seti-syntax":
     dynamicColor: false
+    themeColor: "Green"
+  "seti-ui":
+    compactView: true
     themeColor: "Steel"
   "spell-check":
     grammars: [
@@ -104,11 +141,17 @@
   "steam-pirate-ui":
     fontSize: 12
     layoutMode: "Compact"
+  swackets:
+    colorParens: true
+    colorSquareBrackets: true
   "tool-bar":
     iconSize: "16px"
     position: "Left"
   welcome:
     showOnStartup: false
+".elixir.text":
+  editor:
+    showInvisibles: false
 ".elm.elmx.source":
   editor:
     softWrapHangingIndent: 2
