@@ -72,7 +72,7 @@ rb_prompt() {
 }
 
 directory_name() {
-  echo "%{$fg_bold[green]%}%1/%\/%{$reset_color%}"
+  echo "%{$fg_bold[green]%}🚀 ◎ %1/%\/%{$reset_color%}"
 }
 
 my_alias() {
@@ -80,7 +80,7 @@ my_alias() {
 }
 
 select_prompt_symbol() {
-  echo "%{$fg_bold[green]%}-> %{$reset_color%}"
+  echo "%{$fg_bold[green]%}▷ %{$reset_color%}"
 }
 
 export PROMPT=$'\n$(directory_name) $(git_dirty)$(need_push)\n$(select_prompt_symbol)'

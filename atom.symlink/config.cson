@@ -3,6 +3,9 @@
   "activate-power-mode":
     autoToggle: false
     comboMode: {}
+    plugins:
+      playAudio: true
+      screenShake: true
     screenShake:
       enabled: false
   "advanced-open-file":
@@ -49,6 +52,7 @@
       "atom-bracket-highlight"
       "swackets"
       "fonts"
+      "tab-switcher"
     ]
     hideGitIgnoredFiles: true
     ignoredNames: [
@@ -64,12 +68,12 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "nord-atom-ui"
-      "nord-atom-syntax"
+      "pristine-ui"
+      "pure-syntax"
     ]
   editor:
     fontFamily: "Consolas"
-    fontSize: 18
+    fontSize: 27
     invisibles: {}
     showIndentGuide: true
     softWrap: true
@@ -106,7 +110,8 @@
   "linter-elm-make": {}
   "linter-erlang": {}
   "linter-js-standard": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 53
   "markdown-preview":
     breakOnSingleNewline: true
   minimap:
