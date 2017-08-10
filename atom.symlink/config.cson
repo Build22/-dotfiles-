@@ -37,7 +37,8 @@
       panelContrast: true
       panelShadows: true
   "autocomplete-elixir":
-    erlangHome: "/usr/local/bin"
+    elixirPath: "/usr/local/bin/elixir"
+    erlangHome: "/usr/local/bin/erl"
   "autocomplete-erlang": {}
   core:
     audioBeep: false
@@ -51,8 +52,8 @@
       "fancy-bracket-matcher"
       "atom-bracket-highlight"
       "swackets"
-      "fonts"
       "tab-switcher"
+      "fonts"
     ]
     hideGitIgnoredFiles: true
     ignoredNames: [
@@ -68,12 +69,12 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "pristine-ui"
-      "pure-syntax"
+      "one-light-ui"
+      "chestnut-light-atom-syntax"
     ]
   editor:
     fontFamily: "Consolas"
-    fontSize: 27
+    fontSize: 17
     invisibles: {}
     showIndentGuide: true
     softWrap: true
@@ -123,6 +124,7 @@
   "one-dark-ui":
     fontSize: 15
     layoutMode: "Compact"
+  "one-light-ui": {}
   "pdf-view": {}
   pigments: {}
   "relative-numbers":

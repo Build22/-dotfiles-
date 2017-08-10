@@ -11,3 +11,4 @@ fi
 
 alias camReset="sudo killall VDCAssistant"
 alias blackout="pmset sleepnow"
+alias exal="exa -bghHliS"
