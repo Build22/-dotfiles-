@@ -69,12 +69,12 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "one-light-ui"
-      "chestnut-light-atom-syntax"
+      "seti-ui"
+      "pure-syntax"
     ]
   editor:
-    fontFamily: "Consolas"
-    fontSize: 17
+    fontFamily: "Hack"
+    fontSize: 15
     invisibles: {}
     showIndentGuide: true
     softWrap: true
@@ -138,6 +138,7 @@
     themeColor: "Green"
   "seti-ui":
     compactView: true
+    fileIcons: false
     themeColor: "Steel"
   "spell-check":
     grammars: [
